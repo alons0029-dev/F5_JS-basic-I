@@ -9,45 +9,64 @@ console.log('Hola soy tu consola y juntas vamos a aprender Javascript')
 //Ejercicio 1: Imprime en la consola "Bienvenida/o al bootcamp P2 Juniors (BCN Singulars) de Factoría F5" y mira en tu navegador si sale el resultado.
 
 //Escribe tu código aquí
-
-
-
+console.log('Bienvenido/a al bootcamp P2 Juniors (BCN Singulars) de Factoría F5')
 
 //VARIABLES Y TIPOS DE DATOS
 //Ejercicio 2: Crea una variable por los siguientes tipos de dato: string, number, boolean, null, undefined, object, array e imprímelos en la consola.
 
 //Escribe tu código aquí
+let stringVar = "Text";
+let numVar = 7;
+let boolVal = true;
+let nullVal = null;
+let undefinedVal = undefined;
 
+let objectVal = {
+    myName: "Antonio",
+    myAge: 19,
+    isMale: true
+};
+
+const carBrand = ["Ferrari", "BMW", "Toyota"]
 
 
 
 //OPERADORES ARITMÉTICOS
-//Ejercicio 4: Crea una varible que sume 2 números e imprime el resultado en consola.
+
+// Números para los próximos ejercicios
+number1 = 2;
+number2 = 5;
+number3 = 8;
+
+//Ejercicio 4: Crea una variable que sume 2 números e imprime el resultado en consola.
 
 //Escribe tu código aquí
 
-
-
+let sumaNumber = (number1 + number2);
+console.log(sumaNumber);
 
 //Ejercicio 5: Crea una varible que reste 2 números e imprime el resultado en consola.
 
 //Escribe tu código aquí
 
-
+let subtractNumber = (number2 - number1);
+console.log(subtractNumber);
 
 
 //Ejercicio 6: Crea una varible que multiplique 2 números e imprime el resultado en consola.
 
 //Escribe tu código aquí
 
-
+let multiplyNumber = (number2 * number1);
+console.log(multiplyNumber);
 
 
 //Ejercicio 7: Crea una varible que divida 2 números e imprime el resultado en consola.
 
 //Escribe tu código aquí
 
-
+let divideNumber = (number3 / number1);
+console.log(divideNumber);
 
 
 //OPERADORES DE COMPARACIÓN
